@@ -1,0 +1,264 @@
+@media (max-width: 1023px) {
+  .wrapper {
+    min-width: 768px;
+  }
+  .wrapper .inner {
+    width: 768px;
+  }
+  .wrapper header.active {
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  .wrapper header.active .nav-bar {
+    display: block;
+  }
+  .wrapper header.active .search_panel {
+    display: block;
+  }
+  .wrapper header.active .mob_info {
+    display: block;
+  }
+  .wrapper header .logo {
+    left: 14px;
+  }
+  .wrapper header .social {
+    display: none;
+  }
+  .wrapper header .mob_info {
+    width: 100%;
+    font: 400 15px/30px 'Dopis', sans-serif;
+    text-align: center;
+  }
+  .wrapper header .mob_info a {
+    color: #2b2b2a;
+  }
+  .wrapper header .mob_info a.wide {
+    letter-spacing: 2px;
+  }
+  .wrapper header .nav-bar {
+    display: none;
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+  .wrapper header .nav-bar a {
+    display: block;
+    margin: 0 0 40px;
+    text-decoration: none;
+  }
+  .wrapper header .nav-bar a:hover:before {
+    display: none;
+  }
+  .wrapper header .search {
+    display: none;
+  }
+  .wrapper header .inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 15% 0;
+  }
+  .wrapper header .search_panel {
+    max-width: 500px;
+  }
+  .wrapper header .mob_btn {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 44px;
+  }
+  .wrapper header .mob_btn.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+  .wrapper header .mob_btn.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .wrapper header .mob_btn.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .wrapper header .mob_btn.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+  .wrapper header .mob_btn span {
+    height: 5px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0;
+    -webkit-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  .wrapper header .mob_btn span:nth-child(1) {
+    top: 0px;
+  }
+  .wrapper header .mob_btn span:nth-child(2),
+  .wrapper header .mob_btn span:nth-child(3) {
+    top: 18px;
+  }
+  .wrapper header .mob_btn span:nth-child(4) {
+    top: 36px;
+  }
+  .wrapper footer {
+    height: auto;
+  }
+  .wrapper footer .logo {
+    width: auto;
+    height: auto;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+  .wrapper footer .block {
+    padding: 30px 20px 70px;
+  }
+  .wrapper footer .block .item:nth-child(1) {
+    justify-content: space-between;
+  }
+  .wrapper footer .block .item .social {
+    position: static;
+    margin-left: -47px;
+  }
+  .wrapper footer .created {
+    background-color: transparent;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    height: 100px;
+  }
+  .wrapper footer .created span {
+    top: 34px;
+    left: 20px;
+  }
+  .wrapper.main-page .top-section {
+    height: 100vh;
+  }
+  .wrapper.main-page .top-section .inner .sidebar {
+    width: 312px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .text {
+    right: 50px;
+  }
+  .wrapper.main-page .top-section .inner .block {
+    padding: 250px 0 0 120px;
+  }
+  .wrapper.main-page .top-section .inner .block .title {
+    font: 700 46px/46px 'Dopis', sans-serif;
+    width: 320px;
+  }
+  .wrapper.main-page .problems {
+    margin: 110px 0 0 0;
+    padding-left: 60px;
+  }
+  .wrapper.main-page .problems .info {
+    width: 100%;
+  }
+  .wrapper.main-page .problems .info .section-title {
+    font: 700 46px/48px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .problems .info .name {
+    width: 670px;
+  }
+  .wrapper.main-page .problems .remedy {
+    float: none;
+    margin: 0 auto;
+    width: 500px;
+  }
+  .wrapper.main-page .products {
+    margin-top: 120px;
+    padding: 80px 0 0 70px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .wrapper.main-page .products .section-title {
+    font: 700 46px/48px 'Dopis', sans-serif;
+    top: -23px;
+  }
+  .wrapper.main-page .products .image {
+    margin: 40px 0 0 160px;
+  }
+  .wrapper.main-page .products .button {
+    left: 56px;
+  }
+  .wrapper.main-page .features {
+    padding: 50px 0 60px 100px;
+    margin: 130px 0 0 0px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .wrapper.main-page .features .border {
+    width: 660px;
+    height: 690px;
+  }
+  .wrapper.main-page .features .image {
+    height: 550px;
+    margin-left: 90px;
+    margin-top: 80px;
+  }
+  .wrapper.main-page .features .image .button {
+    top: 0;
+  }
+  .wrapper.main-page .features .image span {
+    right: -120px;
+    font: 700 16px/21px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .feedback {
+    margin: 0 100px 0 70px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position: center 70px;
+    padding: 100px 0 0 30px;
+  }
+  .wrapper.main-page .feedback .section-title {
+    font: 700 46px/76px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .blog .section-title {
+    font: 700 46px/48px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .blog .button {
+    margin-left: 464px;
+  }
+  .wrapper.main-page .where-to-buy .image {
+    width: 220px;
+    height: 490px;
+    padding: 130px 0 0 60px;
+    background: #ff5251 url(../img/where_to_buy.png) -10% 0 no-repeat;
+  }
+}

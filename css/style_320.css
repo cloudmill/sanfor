@@ -1,0 +1,595 @@
+@media (max-width: 768px) {
+  .wrapper {
+    min-width: 320px;
+  }
+  .wrapper .inner {
+    width: 100%;
+  }
+  .wrapper header .mob_btn {
+    top: 12px;
+    width: 25px;
+  }
+  .wrapper header .mob_btn.open span:nth-child(1) {
+    top: 7px;
+    width: 0%;
+    left: 50%;
+  }
+  .wrapper header .mob_btn.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .wrapper header .mob_btn.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .wrapper header .mob_btn.open span:nth-child(4) {
+    top: 7px;
+    width: 0%;
+    left: 50%;
+  }
+  .wrapper header .mob_btn span {
+    height: 3px;
+  }
+  .wrapper header .mob_btn span:nth-child(2),
+  .wrapper header .mob_btn span:nth-child(3) {
+    top: 7px;
+  }
+  .wrapper header .mob_btn span:nth-child(4) {
+    top: 14px;
+  }
+  .wrapper header .logo {
+    top: 12px;
+  }
+  .wrapper footer {
+    margin-left: 15px;
+  }
+  .wrapper footer .logo {
+    top: -45px;
+  }
+  .wrapper footer .block {
+    padding: 30px 20px 30px 30px;
+  }
+  .wrapper footer .block .item {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .wrapper footer .block .item:nth-child(1) {
+    padding-bottom: 86px;
+    margin-bottom: 36px;
+  }
+  .wrapper footer .block .item:nth-child(2) {
+    padding-left: 16px;
+  }
+  .wrapper footer .block .item .nav-bar {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .wrapper footer .block .item .nav-bar a {
+    font-size: 13px;
+  }
+  .wrapper footer .block .item .nav-bar a:nth-child(n+7) {
+    margin-left: 0;
+  }
+  .wrapper footer .block .item .nav-bar a.grey {
+    font: 400 12px/28px 'Dopis', sans-serif;
+  }
+  .wrapper footer .block .item .contacts {
+    width: 100%;
+    text-align: left;
+  }
+  .wrapper footer .block .item .contacts a {
+    font: 700 13px/25px 'Dopis', sans-serif;
+  }
+  .wrapper footer .block .item .contacts span {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  .wrapper footer .block .item .contacts b {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .wrapper footer .block .item .social {
+    position: absolute;
+    bottom: 0;
+    width: 290px;
+    left: 30px;
+  }
+  .wrapper footer .block .item .copyright {
+    padding-right: 14px;
+    -webkit-order: 2px;
+    -moz-order: 2;
+    -ms-order: 2;
+    -o-order: 2;
+    order: 2;
+    margin: 0 auto;
+    width: 196px;
+    font-size: 12px;
+  }
+  .wrapper footer .block .item .policy {
+    -webkit-order: 1;
+    -moz-order: 1;
+    -ms-order: 1;
+    -o-order: 1;
+    order: 1;
+    width: 196px;
+    margin: 0 auto 80px;
+  }
+  .wrapper footer .block .item .policy a {
+    font-size: 12px;
+  }
+  .wrapper footer .created {
+    height: 26px;
+    bottom: 91px;
+    width: 196px;
+    left: 54%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+  .wrapper footer .created a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .wrapper footer .created span {
+    font-size: 12px;
+    position: static;
+  }
+  .wrapper.main-page .inner .logo a img {
+    width: 56px;
+  }
+  .wrapper.main-page .top-section {
+    height: auto;
+  }
+  .wrapper.main-page .top-section .inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 90px 10px 40px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: auto;
+    bottom: -150px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .text {
+    top: 18px;
+    right: auto;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    max-width: 420px;
+    padding: 0 15px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .text span {
+    font: 400 13px/19px 'Dopis', sans-serif;
+    padding: 0 0 0 40px;
+    text-align: left;
+    margin-left: 0;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .text span:before {
+    right: auto;
+    left: 0;
+    width: 28px;
+    height: 26px;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .text span:nth-child(2) {
+    margin-top: 16px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .contacts {
+    right: auto;
+    bottom: 0;
+    padding: 0 15px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+    max-width: 420px;
+    justify-content: space-between;
+  }
+  .wrapper.main-page .top-section .inner .block {
+    padding: 0;
+  }
+  .wrapper.main-page .top-section .inner .block .title {
+    width: 210px;
+    font: 700 30px/32px 'Dopis', sans-serif;
+    margin-bottom: 18px;
+  }
+  .wrapper.main-page .top-section .inner .block .descr {
+    font: 400 condensed 13px/15px 'Dopis', sans-serif;
+    margin-bottom: 32px;
+  }
+  .wrapper.main-page .top-section .inner .block .scroll-down {
+    display: none;
+  }
+  .wrapper.main-page .top-section .inner .block .button a {
+    width: 180px;
+    font: 400 13px/50px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .problems {
+    margin-top: 210px;
+    padding-left: 15px;
+    position: relative;
+    padding-bottom: 80px;
+  }
+  .wrapper.main-page .problems .info .section-title {
+    font: 700 20px/22px 'Dopis', sans-serif;
+    width: 240px;
+  }
+  .wrapper.main-page .problems .info .button {
+    margin-left: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .wrapper.main-page .problems .info .button a {
+    width: 180px;
+    line-height: 50px;
+  }
+  .wrapper.main-page .problems .info .name {
+    margin-top: 22px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-right: 16px;
+  }
+  .wrapper.main-page .problems .info .name span {
+    font: 400 condensed 13px/19px 'Dopis', sans-serif;
+    margin: 0 0 22px 22px;
+  }
+  .wrapper.main-page .problems .info .name span:nth-child(6) {
+    margin-left: 22px;
+  }
+  .wrapper.main-page .problems .info .name span:nth-child(6).active {
+    margin-left: 22px;
+  }
+  .wrapper.main-page .problems .info .name span:first-child {
+    margin-left: 22px;
+  }
+  .wrapper.main-page .problems .info .name span:first-child.active {
+    margin-left: 22px;
+  }
+  .wrapper.main-page .problems .info .name span.active {
+    margin-left: 32px;
+  }
+  .wrapper.main-page .problems .info .name span.active:after {
+    width: 46px;
+    height: 46px;
+  }
+  .wrapper.main-page .problems .info .block {
+    display: none;
+  }
+  .wrapper.main-page .problems .remedy {
+    width: 100%;
+    padding-right: 15px;
+  }
+  .wrapper.main-page .problems .remedy .image {
+    height: 190px;
+    width: 80%;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-left: auto;
+  }
+  .wrapper.main-page .problems .remedy .list {
+    width: 242px;
+    margin-left: auto;
+    margin-top: 0;
+  }
+  .wrapper.main-page .problems .remedy .list .item {
+    width: 100px;
+    height: 35px;
+  }
+  .wrapper.main-page .problems .remedy .list .item.i2 .item-image,
+  .wrapper.main-page .problems .remedy .list .item.i1 .item-image {
+    position: relative;
+    top: 14px;
+    margin-top: -180px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    height: 186px;
+    background-position: center 10px;
+  }
+  .wrapper.main-page .problems .remedy .list .item .name {
+    margin-top: 40px;
+    font: 400 13px/19px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .problems .remedy .list .text {
+    margin-left: -48px;
+    font: 700 14px/20px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .problems .remedy .list .text:before {
+    display: none;
+  }
+  .wrapper.main-page .products {
+    padding: 0 15px 110px;
+  }
+  .wrapper.main-page .products .section-title {
+    font: 700 20px/26px 'Dopis', sans-serif;
+    position: relative;
+    left: auto;
+    width: 100%;
+    top: -13px;
+    height: auto;
+  }
+  .wrapper.main-page .products .info {
+    width: 100%;
+  }
+  .wrapper.main-page .products .info .title {
+    font: 700 16px/22px 'Dopis', sans-serif;
+    margin-bottom: 20px;
+  }
+  .wrapper.main-page .products .info .text {
+    font: 400 13px/18px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .products .info .text span {
+    padding-left: 20px;
+  }
+  .wrapper.main-page .products .info .location {
+    margin-top: 24px;
+  }
+  .wrapper.main-page .products .info .location .name {
+    float: none;
+    width: auto;
+    font: 700 13px/18px 'Dopis', sans-serif;
+    margin-bottom: 13px;
+  }
+  .wrapper.main-page .products .info .button {
+    bottom: 30px;
+    left: 70px;
+  }
+  .wrapper.main-page .products .info .button a {
+    width: 180px;
+    line-height: 50px;
+  }
+  .wrapper.main-page .products .image {
+    margin: 35px auto 0;
+    width: 290px;
+    height: 290px;
+    padding-top: 30px;
+  }
+  .wrapper.main-page .products .image img {
+    width: 210px;
+  }
+  .wrapper.main-page .features {
+    margin-top: 0;
+    padding: 54px 15px 0 34px;
+    position: relative;
+  }
+  .wrapper.main-page .features .block .item {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .wrapper.main-page .features .block .item .name {
+    font: 700 condensed 13px/36px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .features .block .item .descr {
+    font: 300 13px/18px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .features .block .item span {
+    font: 700 30px/30px 'Dopis', sans-serif;
+    left: -20px;
+    top: 5px;
+  }
+  .wrapper.main-page .features .border {
+    height: 480px;
+    width: 160px;
+    bottom: -120px;
+    top: auto;
+  }
+  .wrapper.main-page .features .image {
+    margin: 110px 0 0 18px;
+    height: 290px;
+    width: 210px;
+    padding-top: 0;
+  }
+  .wrapper.main-page .features .image .img {
+    margin: 0;
+    position: relative;
+    top: -34px;
+  }
+  .wrapper.main-page .features .image .button {
+    top: auto;
+    bottom: -40px;
+    left: 14px;
+  }
+  .wrapper.main-page .features .image .button:before {
+    left: -202px;
+  }
+  .wrapper.main-page .features .image span {
+    right: -44px;
+    top: 20px;
+    width: 70px;
+    font: 700 13px/18px 'Dopis', sans-serif;
+    padding-bottom: 10px;
+  }
+  .wrapper.main-page .features .image span:before {
+    width: 62px;
+  }
+  .wrapper.main-page .features .image img {
+    height: 280px;
+  }
+  .wrapper.main-page .feedback {
+    margin: 186px 15px 0;
+    padding: 20px 0 0;
+    background-position: 0 0;
+    -webkit-background-size: 290px;
+    background-size: 290px;
+  }
+  .wrapper.main-page .feedback .section-title {
+    font: 700 20px/26px 'Dopis', sans-serif;
+    background-color: transparent;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container {
+    margin-top: -22px;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column {
+    width: 100%;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column:last-child {
+    margin-left: 0;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column .button {
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column .author {
+    padding-left: 0;
+    font: 700 condensed 13px/18px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column .author:before {
+    display: none;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column .text {
+    font: 400 13px/18px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column .site {
+    padding-left: 0;
+    margin: 18px 0 30px;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column .site img {
+    width: 140px;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .swiper-button-next {
+    top: 26px;
+    left: auto;
+    right: 0;
+    bottom: auto;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .swiper-button-prev {
+    top: 46px;
+    right: 24px;
+    left: auto;
+    bottom: auto;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .swiper-pagination {
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    bottom: auto;
+    top: 0;
+  }
+  .wrapper.main-page .blog {
+    margin: 60px 0 0;
+  }
+  .wrapper.main-page .blog .section-title {
+    font: 700 20px/26px 'Dopis', sans-serif;
+    padding: 0 15px;
+  }
+  .wrapper.main-page .blog .button {
+    margin-left: 70px;
+  }
+  .wrapper.main-page .blog .button:before {
+    left: -170px;
+  }
+  .wrapper.main-page .blog .blog-swiper-container {
+    width: 320px;
+    margin: -24px auto 30px;
+    padding: 52px 0 0;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .block .item {
+    width: 290px;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .block .item .image span {
+    top: 118px;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .block .item .title {
+    margin-top: 20px;
+    font: 700 16px/22px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .block .item .date {
+    margin-top: 11px;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .block .item .descr {
+    font: 400 13px/18px 'Dopis', sans-serif;
+    margin-top: 12px;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .swiper-button-prev {
+    left: auto;
+    top: 32px;
+    bottom: auto;
+    right: 36px;
+  }
+  .wrapper.main-page .blog .blog-swiper-container .swiper-button-next {
+    left: auto;
+    top: 12px;
+    bottom: auto;
+    right: 14px;
+  }
+  .wrapper.main-page .where-to-buy {
+    margin: 50px 0 112px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+  .wrapper.main-page .where-to-buy .image {
+    background: transparent;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .wrapper.main-page .where-to-buy .image span {
+    font: 700 20px/26px 'Dopis', sans-serif;
+  }
+  .wrapper.main-page .where-to-buy .block {
+    max-width: 470px;
+    margin: 0 -15px;
+  }
+  .wrapper.main-page .where-to-buy .block .item {
+    padding: 20px 15px;
+  }
+  .wrapper.main-page .where-to-buy .block .item a img {
+    width: 100%;
+  }
+}

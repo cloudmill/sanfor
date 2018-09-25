@@ -1,0 +1,109 @@
+@media (max-width: 1440px) {
+  .wrapper {
+    min-width: 1024px;
+  }
+  .wrapper .inner {
+    width: 1024px;
+  }
+  .wrapper header .logo {
+    left: 0;
+  }
+  .wrapper header .social {
+    right: 116px;
+  }
+  .wrapper header .nav-bar {
+    left: 160px;
+  }
+  .wrapper header .nav-bar a {
+    margin-left: 50px;
+  }
+  .wrapper header .nav-bar a:first-child {
+    margin-left: 0;
+  }
+  .wrapper header .search {
+    right: 0;
+  }
+  .wrapper footer .block {
+    padding: 80px 0px 80px 364px;
+  }
+  .wrapper footer .block .item:nth-child(1) {
+    justify-content: flex-start;
+  }
+  .wrapper footer .block .item .social {
+    padding-top: 170px;
+    position: relative;
+    left: 40px;
+  }
+  .wrapper.main-page .top-section {
+    height: 760px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar {
+    width: 312px;
+  }
+  .wrapper.main-page .top-section .inner .sidebar .text {
+    right: 50px;
+  }
+  .wrapper.main-page .top-section .inner .block {
+    padding-left: 210px;
+  }
+  .wrapper.main-page .problems {
+    margin: 140px 0px 0 0;
+  }
+  .wrapper.main-page .problems .info {
+    width: 810px;
+    float: none;
+    margin: 0 auto 40px;
+  }
+  .wrapper.main-page .problems .remedy {
+    float: none;
+    margin: 0 auto;
+    width: 500px;
+  }
+  .wrapper.main-page .products {
+    margin-top: 150px;
+    margin-left: 0px;
+    padding: 100px 0 0 100px;
+  }
+  .wrapper.main-page .features {
+    padding: 120px 0 150px 134px;
+    margin: 160px 0 0 100px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .wrapper.main-page .features .border {
+    width: 640px;
+    height: 700px;
+  }
+  .wrapper.main-page .features .image {
+    height: 550px;
+    margin-left: 90px;
+    margin-top: 87px;
+  }
+  .wrapper.main-page .features .image .button {
+    top: 0;
+  }
+  .wrapper.main-page .feedback {
+    margin: 0 100px 0 70px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    padding: 100px 0 0 30px;
+  }
+  .wrapper.main-page .feedback .feedback-swiper-container .block .item .column:last-child {
+    margin-left: 50px;
+  }
+  .wrapper.main-page .where-to-buy {
+    -ms-align-items: center;
+    align-items: center;
+    margin: 120px 0px;
+  }
+  .wrapper.main-page .where-to-buy .image {
+    width: 420px;
+    height: 490px;
+  }
+  .wrapper.main-page .where-to-buy .block {
+    margin: 0px 0 0 50px;
+  }
+}
