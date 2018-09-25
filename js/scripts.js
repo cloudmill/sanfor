@@ -52,12 +52,13 @@ $(document).ready(function () {
   var mySwiper_detail = new Swiper ('.detail-blog-swiper', {
     loop: true,
     simulateTouch: false,
-    slidesPerView: 'auto',
-    spaceBetween: 60,
+    slidesPerView: 3,
+    spaceBetween: 0,
     navigation: {
-      nextEl: '.swiper-button-next.det',
-      prevEl: '.swiper-button-prev.det',
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
+    slidesPerGroup: 3
   });
 });
 
