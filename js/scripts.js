@@ -89,6 +89,11 @@ $(document).ready(function () {
     $(this).siblings('.item').removeClass('active');
   });
 
+  $(".wrapper.category-3.ln .inner .resove-problems .problems .problem").on("click", function() {
+    $(this).parent().find(".problem").removeClass("active");
+    $(this).addClass("active");
+  });
+
   var mySwiper = new Swiper ('.feedback-swiper-container', {
     loop: true,
     simulateTouch: false,
@@ -117,6 +122,17 @@ $(document).ready(function () {
     loop: true,
     simulateTouch: false,
     spaceBetween: 100,
+    slidesPerView: 'auto',
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
+
+  var mySwiper_serts = new Swiper ('.scale-swiper', {
+    loop: true,
+    simulateTouch: false,
+    spaceBetween: 0,
     slidesPerView: 'auto',
     navigation: {
       nextEl: '.swiper-button-next',
