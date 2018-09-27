@@ -7,6 +7,11 @@
   }
   .wrapper header.active {
     height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
     background-color: rgba(255, 255, 255, 0.95);
   }
   .wrapper header.active .nav-bar {
@@ -66,7 +71,7 @@
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 15% 0;
+    padding: 18% 0;
   }
   .wrapper header .search_panel {
     max-width: 500px;
