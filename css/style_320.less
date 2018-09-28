@@ -8,10 +8,14 @@
 		min-width: 320px;
 		.inner {
 			width: 100%;
+			padding: 0 15px;
 		}
 		header {
-			.inner {
-				padding: 20% 0;
+			height: 60px;
+			&.active {
+				.inner {
+					padding: 20% 0;
+				}
 			}
 			.mob_btn {
 				top: 12px;
@@ -52,6 +56,10 @@
 			}
 			.logo {
 				top: 12px;
+				width: 58px;
+				img {
+					width: 100%;
+				}
 			}
 			.search_panel {
 				padding: 0 50px;
@@ -622,6 +630,63 @@
 						a {
 							img {
 								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.catalog {
+			header {
+				.mob-category-title {
+					padding-top: 0;
+				}
+			}
+			main {
+				.inner {
+					.catalog-content {
+						padding: 0;
+						.top-line {
+							-webkit-flex-wrap: wrap;
+							-moz-flex-wrap: wrap;
+							-ms-flex-wrap: wrap;
+							-o-flex-wrap: wrap;
+							flex-wrap: wrap;
+							.crumbs {
+								margin-bottom: 16px;
+								ul {
+									li {
+										display: inline-block;
+									}
+								}
+							}
+							.section-title {
+								margin-left: 0;
+								width: 100%;
+								font: 700 30px/30px @font;
+							}
+						}
+						.products {
+							.block {
+								.item {
+									-webkit-flex: auto;
+									-moz-flex: auto;
+									-ms-flex: auto;
+									-o-flex: auto;
+									flex: auto;
+									width: 290px;
+								}
+							}
+						}
+						.seo-block {
+							margin: 70px 0 140px;
+							padding: 0;
+							.title {
+								font-size: 20px;
+								line-height: 20px;
+							}
+							.text {
+								margin-top: 12px;
 							}
 						}
 					}

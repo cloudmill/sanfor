@@ -269,6 +269,9 @@ body.noscroll {
 				}
 			}
 		}
+		.mob-category-title {
+			display: none;
+		}
 		.logo {
 			position: absolute;
 			left: 100px;
@@ -2580,7 +2583,7 @@ body.noscroll {
 					padding-left: 100px;
 					.top-line {
 						display: flex;
-						margin: 65px 0 0 230px;
+						margin: 65px 0 0 0;
 						.crumbs {
 							margin-bottom: 40px;
 							ul {
@@ -2622,13 +2625,19 @@ body.noscroll {
 						}
 					}
 					.filter {
-						padding-left: 230px;
 						margin: 50px 0 28px;
 						.item {
 							width: 100%;
 							position: relative;
 							&:nth-child(1) {
 								margin-bottom: 14px;
+								.checks {
+									.check {
+										&.clear {
+											display: none;
+										}
+									}
+								}
 							}
 							&:nth-child(2) {
 								.checks {
@@ -2663,11 +2672,14 @@ body.noscroll {
 								.check {
 									margin-left: 4px;
 									&.clear {
+										display: block;
 										width: 302px;
+										background-color: transparent;
 										text-align: center;
 										border: 1px #e1e1e1 dashed;
 										cursor: pointer;
 										color: #8a8a8a;
+										outline: none;
 										font: 300 13px/38px @font;
 										border-radius: 19px;
 										position: relative;
@@ -2724,6 +2736,9 @@ body.noscroll {
 											transition: border-color 0.2s ease-in-out;
 										}
 									}
+								}
+								button {
+									display: none;
 								}
 							}
 						}

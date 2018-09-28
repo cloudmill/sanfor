@@ -4,8 +4,12 @@
   }
   .wrapper .inner {
     width: 100%;
+    padding: 0 15px;
   }
-  .wrapper header .inner {
+  .wrapper header {
+    height: 60px;
+  }
+  .wrapper header.active .inner {
     padding: 20% 0;
   }
   .wrapper header .mob_btn {
@@ -46,6 +50,10 @@
   }
   .wrapper header .logo {
     top: 12px;
+    width: 58px;
+  }
+  .wrapper header .logo img {
+    width: 100%;
   }
   .wrapper header .search_panel {
     padding: 0 50px;
@@ -597,5 +605,48 @@
   }
   .wrapper.main-page .where-to-buy .block .item a img {
     width: 100%;
+  }
+  .wrapper.catalog header .mob-category-title {
+    padding-top: 0;
+  }
+  .wrapper.catalog main .inner .catalog-content {
+    padding: 0;
+  }
+  .wrapper.catalog main .inner .catalog-content .top-line {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .wrapper.catalog main .inner .catalog-content .top-line .crumbs {
+    margin-bottom: 16px;
+  }
+  .wrapper.catalog main .inner .catalog-content .top-line .crumbs ul li {
+    display: inline-block;
+  }
+  .wrapper.catalog main .inner .catalog-content .top-line .section-title {
+    margin-left: 0;
+    width: 100%;
+    font: 700 30px/30px 'Dopis', sans-serif;
+  }
+  .wrapper.catalog main .inner .catalog-content .products .block .item {
+    -webkit-flex: auto;
+    -moz-flex: auto;
+    -ms-flex: auto;
+    -o-flex: auto;
+    flex: auto;
+    width: 290px;
+  }
+  .wrapper.catalog main .inner .catalog-content .seo-block {
+    margin: 70px 0 140px;
+    padding: 0;
+  }
+  .wrapper.catalog main .inner .catalog-content .seo-block .title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .wrapper.catalog main .inner .catalog-content .seo-block .text {
+    margin-top: 12px;
   }
 }

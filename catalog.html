@@ -21,9 +21,10 @@
             <img src="img/logo.png" alt="">
           </a>
         </div>
+        <div class="mob-category-title">Наши линейки</div>
         <nav class="nav-bar">
           <a href="about.html">О компании</a>
-          <a href="catalog.html" class="active">Продукция</a>
+          <a href="catalog.html">Продукция</a>
           <a href="blog.html">Блог</a>
           <a href="contacts.html">Контакты</a>
         </nav>
@@ -35,6 +36,23 @@
           <a href="#" class="ig"></a>
         </div>
         <div class="search"></div>
+        <div class="mob_info">
+          <a href="mailto:info@sanfor.ru">info@sanfor.ru</a>
+          <br>
+          <a class="wide" href="tel:88005553535">8 800 555-35-35</a>
+        </div>
+        <div class="mob_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="search_panel">
+          <form id="search">
+            <input type="text">
+            <button type="submit"></button>
+          </form>
+        </div>
       </div>
     </header>
     <main>
@@ -52,7 +70,7 @@
           <div class="filter">
             <div class="item">
               <div class="name">Категория:</div>
-              <div class="checks">
+              <form class="checks" id="category">
                 <div class="check">
                   <input type="checkbox" id="prop_1">
                   <label for="prop_1">Все</label>
@@ -77,11 +95,13 @@
                   <input type="checkbox" id="prop_6">
                   <label for="prop_6">Ванная комната</label>
                 </div>
-              </div>
+                <button type="submit">Показать</button>
+                <button class="check clear" type="reset">Сбросить</button>
+              </form>
             </div>
             <div class="item">
               <div class="name">Тип Поверхности:</div>
-              <div class="checks">
+              <form class="checks" id="surface_type">
                 <div class="check">
                   <input type="checkbox" id="prop_surf_1">
                   <label for="prop_surf_1">Хлор</label>
@@ -98,8 +118,9 @@
                   <input type="checkbox" id="prop_surf_4">
                   <label for="prop_surf_4">ПАВ, отдушка</label>
                 </div>
-                <div class="check clear">Сбросить</div>
-              </div>
+                <button type="submit">Показать</button>
+                <button type="clear" class="check clear">Сбросить</button>
+              </form>
             </div>
           </div>
           <div class="products">

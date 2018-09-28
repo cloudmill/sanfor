@@ -48,6 +48,23 @@ $(document).ready(function () {
     $(this).parents('.name').siblings('.block').children('.item').eq($(this).index()).addClass('active');
   });
 
+  $(".mob-category-title").on("click", function() {
+    $(this).toggleClass("active");
+    $(".sidebar").toggleClass("active");
+  });
+
+  $(".catalog-content .filter .item").on("click", function() {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(".filter").removeClass("active");
+    }
+    else {
+      $(this).parent().find(".item").removeClass("active");
+      $(this).addClass("active");
+      $(".filter").addClass("active");
+    }
+  });
+
   var link = window.location.href;
   link = link.split("/");
   if (link[3] == "production" && link[4] == "") {

@@ -261,6 +261,9 @@ body.noscroll {
 .wrapper header .inner.active .mob_info {
   display: block;
 }
+.wrapper header .mob-category-title {
+  display: none;
+}
 .wrapper header .logo {
   position: absolute;
   left: 100px;
@@ -2486,7 +2489,7 @@ body.noscroll {
 }
 .wrapper.catalog main .inner .catalog-content .top-line {
   display: flex;
-  margin: 65px 0 0 230px;
+  margin: 65px 0 0 0;
 }
 .wrapper.catalog main .inner .catalog-content .top-line .crumbs {
   margin-bottom: 40px;
@@ -2526,7 +2529,6 @@ body.noscroll {
   font: 700 74px/74px 'Dopis', sans-serif;
 }
 .wrapper.catalog main .inner .catalog-content .filter {
-  padding-left: 230px;
   margin: 50px 0 28px;
 }
 .wrapper.catalog main .inner .catalog-content .filter .item {
@@ -2535,6 +2537,9 @@ body.noscroll {
 }
 .wrapper.catalog main .inner .catalog-content .filter .item:nth-child(1) {
   margin-bottom: 14px;
+}
+.wrapper.catalog main .inner .catalog-content .filter .item:nth-child(1) .checks .check.clear {
+  display: none;
 }
 .wrapper.catalog main .inner .catalog-content .filter .item:nth-child(2) .checks .check label {
   padding: 8px 14px;
@@ -2565,11 +2570,14 @@ body.noscroll {
   margin-left: 4px;
 }
 .wrapper.catalog main .inner .catalog-content .filter .item .checks .check.clear {
+  display: block;
   width: 302px;
+  background-color: transparent;
   text-align: center;
   border: 1px #e1e1e1 dashed;
   cursor: pointer;
   color: #8a8a8a;
+  outline: none;
   font: 300 13px/38px 'Dopis', sans-serif;
   border-radius: 19px;
   position: relative;
@@ -2625,6 +2633,9 @@ body.noscroll {
   -webkit-transition: border-color 0.2s ease-in-out;
   -o-transition: border-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out;
+}
+.wrapper.catalog main .inner .catalog-content .filter .item .checks button {
+  display: none;
 }
 .wrapper.catalog main .inner .catalog-content .products .block {
   display: flex;

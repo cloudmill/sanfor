@@ -1,3 +1,5 @@
+@font: 'Dopis', sans-serif;
+
 @media (max-width: 1440px) {
 	.wrapper {
 		min-width: 1024px;
@@ -120,6 +122,70 @@
 				}
 				.block {
 					margin: 0px 0 0 50px;
+				}
+			}
+		}
+		&.catalog {
+			main {
+				.inner {
+					.catalog-content {
+						width: 74%;
+						.top-line {
+							.section-title {
+								margin-left: 80px;
+								font: 700 56px/56px @font;
+							}
+						}
+						.products {
+							.block {
+								.item {
+									width: auto;
+									-webkit-flex: 33%;
+									-moz-flex: 33%;
+									-ms-flex: 33%;
+									-o-flex: 33%;
+									flex: 33%;
+								}
+							}
+						}
+						.filter {
+							.item {
+								&:nth-child(1) {
+									margin-bottom: 50px;
+								}
+								.name {
+									top: -20px;
+								}
+								.checks {
+									-webkit-flex-wrap: wrap;
+									-moz-flex-wrap: wrap;
+									-ms-flex-wrap: wrap;
+									-o-flex-wrap: wrap;
+									flex-wrap: wrap;
+									padding-left: 0;
+									width: 620px;
+									.check {
+										margin-bottom: 6px;
+										&.clear {
+											width: 270px;
+											text-align: left;
+											padding-left: 90px;
+											&:after {
+												right: 102px;
+											}
+										}
+									}
+								}
+							}
+						}
+						.seo-block {
+							padding-right: 30px;
+							margin-left: 0;
+						}
+					}
+					.sidebar {
+						width: 26%;
+					}	
 				}
 			}
 		}
