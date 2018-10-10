@@ -65,6 +65,10 @@ $(document).ready(function () {
     }
   });
 
+  $(".wrapper header .search").on("click", function() {
+    $(".desktop_search").addClass("active");
+  });
+
   var link = window.location.href;
   link = link.split("/");
   if (link[3] == "production" && link[4] == "") {
@@ -109,6 +113,9 @@ $(document).ready(function () {
   $(".wrapper.category-3.ln .inner .resove-problems .problems .problem").on("click", function() {
     $(this).parent().find(".problem").removeClass("active");
     $(this).addClass("active");
+    var index = $(this).index();
+    $(".solutions_list .items").removeClass("active");
+    $(".solutions_list .items").eq(index).addClass("active");
   });
 
   var mySwiper = new Swiper ('.feedback-swiper-container', {
@@ -143,6 +150,15 @@ $(document).ready(function () {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
+    },
+    slidesPerView: 'auto',
+    breakpoints: {
+      1440: {
+        spaceBetween: 60
+      },
+      400: {
+        slidesPerView: 1
+      }
     }
   });
 
@@ -166,6 +182,11 @@ $(document).ready(function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      450: {
+        slidesPerView: 1
+      }
+    }
   });
 
   var mySwiper_detail = new Swiper ('.detail-blog-swiper', {
@@ -181,10 +202,272 @@ $(document).ready(function () {
   });
 });
 
+$(document).mouseup(function(e) {
+  var container = $(".desktop_search");
+  if (!container.is(e.target) && container.has(e.target).length === 0) 
+  {
+    container.removeClass('active');
+  }
+});
+
 function initMap() {
   var mapOptions = {
     zoom: 13,
     center: new google.maps.LatLng(59.953439, 30.396629),
+    styles: [
+    {
+      "featureType": "administrative.locality",
+      "elementType": "all",
+      "stylers": [
+      {
+        "hue": "#ff0200"
+      },
+      {
+        "saturation": 7
+      },
+      {
+        "lightness": 19
+      },
+      {
+        "visibility": "on"
+      }
+      ]
+    },
+    {
+      "featureType": "administrative.locality",
+      "elementType": "labels.text",
+      "stylers": [
+      {
+        "visibility": "on"
+      },
+      {
+        "saturation": "-3"
+      },
+      {
+        "hue": "#ff0000"
+      }
+      ]
+    },
+    {
+      "featureType": "administrative.locality",
+      "elementType": "labels.text.fill",
+      "stylers": [
+      {
+        "color": "#536c83"
+      }
+      ]
+    },
+    {
+      "featureType": "landscape",
+      "elementType": "all",
+      "stylers": [
+      {
+        "hue": "#ff0200"
+      },
+      {
+        "saturation": -100
+      },
+      {
+        "lightness": 100
+      },
+      {
+        "visibility": "simplified"
+      }
+      ]
+    },
+    {
+      "featureType": "landscape",
+      "elementType": "geometry.fill",
+      "stylers": [
+      {
+        "visibility": "on"
+      },
+      {
+        "color": "#f2f2f2"
+      }
+      ]
+    },
+    {
+      "featureType": "poi",
+      "elementType": "all",
+      "stylers": [
+      {
+        "saturation": "23"
+      },
+      {
+        "lightness": "20"
+      },
+      {
+        "visibility": "off"
+      },
+      {
+        "hue": "#ff0200"
+      }
+      ]
+    },
+    {
+      "featureType": "poi.school",
+      "elementType": "geometry.fill",
+      "stylers": [
+      {
+        "color": "#ffdbda"
+      },
+      {
+        "saturation": "0"
+      },
+      {
+        "visibility": "on"
+      }
+      ]
+    },
+    {
+      "featureType": "road",
+      "elementType": "geometry",
+      "stylers": [
+      {
+        "hue": "#ff0200"
+      },
+      {
+        "saturation": "100"
+      },
+      {
+        "lightness": "-3"
+      },
+      {
+        "visibility": "simplified"
+      }
+      ]
+    },
+    {
+      "featureType": "road",
+      "elementType": "geometry.stroke",
+      "stylers": [
+      {
+        "color": "#f39247"
+      },
+      {
+        "saturation": "0"
+      }
+      ]
+    },
+    {
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [
+      {
+        "hue": "#008eff"
+      },
+      {
+        "saturation": -93
+      },
+      {
+        "lightness": 31
+      },
+      {
+        "visibility": "on"
+      }
+      ]
+    },
+    {
+      "featureType": "road.arterial",
+      "elementType": "geometry.stroke",
+      "stylers": [
+      {
+        "visibility": "on"
+      },
+      {
+        "color": "#ffe5e5"
+      },
+      {
+        "saturation": "0"
+      },
+      {
+        "lightness": "1"
+      }
+      ]
+    },
+    {
+      "featureType": "road.arterial",
+      "elementType": "labels",
+      "stylers": [
+      {
+        "hue": "#ff0069"
+      },
+      {
+        "saturation": -93
+      },
+      {
+        "lightness": "26"
+      },
+      {
+        "visibility": "simplified"
+      }
+      ]
+    },
+    {
+      "featureType": "road.arterial",
+      "elementType": "labels.text",
+      "stylers": [
+      {
+        "visibility": "off"
+      }
+      ]
+    },
+    {
+      "featureType": "road.local",
+      "elementType": "geometry",
+      "stylers": [
+      {
+        "hue": "#ff0200"
+      },
+      {
+        "saturation": -90
+      },
+      {
+        "lightness": "61"
+      },
+      {
+        "visibility": "simplified"
+      }
+      ]
+    },
+    {
+      "featureType": "transit",
+      "elementType": "all",
+      "stylers": [
+      {
+        "saturation": "28"
+      },
+      {
+        "lightness": "25"
+      },
+      {
+        "visibility": "on"
+      },
+      {
+        "hue": "#ff0000"
+      }
+      ]
+    },
+    {
+      "featureType": "water",
+      "elementType": "all",
+      "stylers": [
+      {
+        "saturation": -78
+      },
+      {
+        "lightness": 67
+      },
+      {
+        "visibility": "simplified"
+      },
+      {
+        "color": "#ffc1c1"
+      }
+      ]
+    }
+    ]
   };
   var mapElement = document.getElementById('map');
   var map = new google.maps.Map(mapElement, mapOptions);

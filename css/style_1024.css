@@ -23,6 +23,85 @@
   .wrapper header .search {
     right: 0;
   }
+  .wrapper main .about_brand .top_block .inner {
+    padding-left: 200px;
+  }
+  .wrapper main .about_brand .inner {
+    padding: 0;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt {
+    margin: -20px 0 0 50px;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt .problems {
+    width: 320px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt .problems:before {
+    right: auto;
+    left: 0;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt .problems:after {
+    content: '';
+    position: absolute;
+    width: 550px;
+    z-index: -1;
+    height: 1px;
+    background-color: #ff5251;
+    left: 0;
+    bottom: 72px;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt .problems .problem:nth-child(4) {
+    margin-left: 0;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt p.text.six {
+    width: 400px;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt .countries .num {
+    justify-content: flex-start;
+  }
+  .wrapper main .about_brand .inner .history_block .right_cnt .countries .num:nth-child(2) {
+    padding-left: 50px;
+  }
+  .wrapper main .about_brand .inner .modern .just_big {
+    font: 700 140px/140px 'Dopis', sans-serif;
+  }
+  .wrapper main .about_brand .inner .modern .just_big .img {
+    width: 190px;
+    height: 666px;
+  }
+  .wrapper main .better-then-others {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  .wrapper main .evolution .inner {
+    padding-left: 220px;
+  }
+  .wrapper main .evolution .inner:before {
+    width: 100px;
+  }
+  .wrapper main .our-production .inner {
+    padding-left: 50px;
+  }
+  .wrapper main .our-production .inner .second_part {
+    margin-left: 60px;
+  }
+  .wrapper main .our-production .inner .third_part {
+    margin-left: 30px;
+  }
+  .wrapper main .pros .inner {
+    padding: 0 0 0 200px;
+  }
+  .wrapper main .awards .inner {
+    padding: 0 0 0 200px;
+  }
+  .wrapper main .awards .inner .items .item {
+    height: 430px;
+  }
   .wrapper footer .block {
     padding: 80px 0px 80px 364px;
   }
@@ -153,5 +232,107 @@
   }
   .wrapper.catalog main .inner .sidebar {
     width: 26%;
+  }
+  .wrapper.category-1.ln .top-section .inner,
+  .wrapper.category-2.ln .top-section .inner,
+  .wrapper.category-3.ln .top-section .inner,
+  .wrapper.category-4.ln .top-section .inner {
+    padding: 165px 0 0;
+  }
+  .wrapper.category-1.ln .inner .stock-scale,
+  .wrapper.category-2.ln .inner .stock-scale,
+  .wrapper.category-3.ln .inner .stock-scale,
+  .wrapper.category-4.ln .inner .stock-scale {
+    padding: 0;
+  }
+  .wrapper.category-1.ln .inner .resove-problems,
+  .wrapper.category-2.ln .inner .resove-problems,
+  .wrapper.category-3.ln .inner .resove-problems,
+  .wrapper.category-4.ln .inner .resove-problems {
+    padding: 0;
+  }
+  .wrapper.category-1.ln .inner .about-scale,
+  .wrapper.category-2.ln .inner .about-scale,
+  .wrapper.category-3.ln .inner .about-scale,
+  .wrapper.category-4.ln .inner .about-scale {
+    padding: 0;
+  }
+  .wrapper.category-1.ln .inner .advantages-scale,
+  .wrapper.category-2.ln .inner .advantages-scale,
+  .wrapper.category-3.ln .inner .advantages-scale,
+  .wrapper.category-4.ln .inner .advantages-scale {
+    padding: 0;
+  }
+  .wrapper.category-1.ln .inner .blog,
+  .wrapper.category-2.ln .inner .blog,
+  .wrapper.category-3.ln .inner .blog,
+  .wrapper.category-4.ln .inner .blog {
+    padding: 0;
+  }
+  .wrapper.category-1.ln .inner .feedback,
+  .wrapper.category-2.ln .inner .feedback,
+  .wrapper.category-3.ln .inner .feedback,
+  .wrapper.category-4.ln .inner .feedback {
+    padding: 60px 0 0;
+    margin-left: 0;
+  }
+  .wrapper.category-1.ln .inner .questions,
+  .wrapper.category-2.ln .inner .questions,
+  .wrapper.category-3.ln .inner .questions,
+  .wrapper.category-4.ln .inner .questions {
+    margin-left: 0;
+  }
+  .wrapper.category-1 .top-section .inner .image:after,
+  .wrapper.category-2 .top-section .inner .image:after,
+  .wrapper.category-3 .top-section .inner .image:after,
+  .wrapper.category-4 .top-section .inner .image:after {
+    right: -5px;
+    bottom: 32px;
+  }
+  .wrapper.category-1 .advantages,
+  .wrapper.category-2 .advantages,
+  .wrapper.category-3 .advantages,
+  .wrapper.category-4 .advantages {
+    margin-left: 0;
+  }
+  .wrapper.category-1 .blog,
+  .wrapper.category-2 .blog,
+  .wrapper.category-3 .blog,
+  .wrapper.category-4 .blog {
+    margin-left: 0;
+  }
+  .wrapper.category-1 .feedback,
+  .wrapper.category-2 .feedback,
+  .wrapper.category-3 .feedback,
+  .wrapper.category-4 .feedback {
+    padding-left: 0;
+  }
+  .wrapper.category-1 .questions,
+  .wrapper.category-2 .questions,
+  .wrapper.category-3 .questions,
+  .wrapper.category-4 .questions {
+    margin-left: 0;
+  }
+  .wrapper.category-1 .questions .section-title,
+  .wrapper.category-2 .questions .section-title,
+  .wrapper.category-3 .questions .section-title,
+  .wrapper.category-4 .questions .section-title {
+    margin-left: 0;
+  }
+  .wrapper.contacts main .inner .top-line {
+    margin: 65px 0 150px;
+  }
+  .wrapper.contacts main .inner .map-content {
+    width: 100%;
+  }
+  .wrapper.contacts main .inner .contacts-form {
+    padding-left: 0;
+  }
+  .wrapper.contacts main .inner .contacts-form .right_cnt {
+    padding: 40px 60px 0;
+  }
+  .wrapper.contacts main .inner .contacts-form .right_cnt:before {
+    bottom: 16px;
+    left: -343px;
   }
 }
